@@ -1,0 +1,1539 @@
+INFO 2026-03-04 12:51:14,858 autoreload 8920 17356 Watching for file changes with StatReloader
+WARNING 2026-03-04 12:51:22,540 log 8920 14588 Not Found: /
+WARNING 2026-03-04 12:51:22,547 log 8920 14588 "GET / HTTP/1.1" 404 2310
+INFO 2026-03-04 12:51:48,169 views 8920 14588 Index page accessed
+INFO 2026-03-04 12:51:48,170 log 8920 14588 "GET /prefix/ HTTP/1.1" 200 13
+ERROR 2026-03-04 13:15:47,524 views 8920 25828 Error in about page: division by zero
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2026-03-04 13:15:47,589 log 8920 25828 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2026-03-04 13:37:32,799 autoreload 8920 17356 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject\myproject\settings.py changed, reloading.
+INFO 2026-03-04 13:37:35,932 autoreload 20476 11304 Watching for file changes with StatReloader
+INFO 2026-03-04 13:38:02,628 autoreload 20476 11304 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject\myproject\settings.py changed, reloading.
+INFO 2026-03-04 13:38:03,825 autoreload 32740 1904 Watching for file changes with StatReloader
+INFO 2026-03-04 13:40:49,271 autoreload 15940 26984 Watching for file changes with StatReloader
+INFO 2026-03-04 13:49:01,929 autoreload 15940 26984 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject\myproject\settings.py changed, reloading.
+INFO 2026-03-04 13:49:02,972 autoreload 32540 34060 Watching for file changes with StatReloader
+INFO 2026-03-06 09:00:21,034 autoreload 13144 3112 Watching for file changes with StatReloader
+INFO 2026-03-06 09:26:38,140 autoreload 31020 20592 Watching for file changes with StatReloader
+WARNING 2026-03-06 09:38:36,069 log 31020 15900 Not Found: /
+WARNING 2026-03-06 09:38:36,069 log 31020 15900 "GET / HTTP/1.1" 404 2314
+WARNING 2026-03-06 09:38:36,128 log 31020 15900 Not Found: /favicon.ico
+WARNING 2026-03-06 09:38:36,128 log 31020 15900 "GET /favicon.ico HTTP/1.1" 404 2365
+WARNING 2026-03-06 09:38:54,581 log 31020 15900 Not Found: /
+WARNING 2026-03-06 09:38:54,581 log 31020 15900 "GET / HTTP/1.1" 404 2314
+WARNING 2026-03-06 09:39:13,372 log 31020 22064 Not Found: /
+WARNING 2026-03-06 09:39:13,373 log 31020 22064 "GET / HTTP/1.1" 404 2310
+WARNING 2026-03-06 09:43:00,036 log 31020 18708 Not Found: /
+WARNING 2026-03-06 09:43:00,044 log 31020 18708 "GET / HTTP/1.1" 404 2310
+INFO 2026-03-06 09:43:26,794 log 31020 18708 "GET /prefix HTTP/1.1" 301 0
+INFO 2026-03-06 09:43:26,808 views 31020 18708 Index page accessed
+INFO 2026-03-06 09:43:26,818 log 31020 18708 "GET /prefix/ HTTP/1.1" 200 13
+WARNING 2026-03-06 09:43:40,213 log 31020 25880 Not Found: /
+WARNING 2026-03-06 09:43:40,213 log 31020 25880 "GET / HTTP/1.1" 404 2314
+WARNING 2026-03-06 09:43:53,039 log 31020 10904 Not Found: /
+WARNING 2026-03-06 09:43:53,040 log 31020 10904 "GET / HTTP/1.1" 404 2314
+WARNING 2026-03-06 09:46:16,824 log 31020 10904 Not Found: /
+WARNING 2026-03-06 09:46:16,826 log 31020 10904 "GET / HTTP/1.1" 404 2314
+WARNING 2026-03-06 09:46:21,449 log 31020 10904 Not Found: /
+WARNING 2026-03-06 09:46:21,449 log 31020 10904 "GET / HTTP/1.1" 404 2314
+INFO 2026-03-06 09:47:57,125 views 31020 19216 Index page accessed
+INFO 2026-03-06 09:47:57,126 log 31020 19216 "GET /prefix/ HTTP/1.1" 200 13
+INFO 2026-03-06 09:48:47,694 views 31020 19216 Index page accessed
+INFO 2026-03-06 09:48:47,694 log 31020 19216 "GET /prefix/ HTTP/1.1" 200 13
+INFO 2026-03-06 09:52:20,406 basehttp 31020 19216 - Broken pipe from ('192.168.1.80', 45868)
+ERROR 2026-03-06 09:53:51,229 views 31020 18724 Error in about page: division by zero
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2026-03-06 09:53:51,276 log 31020 18724 "GET /prefix/about/ HTTP/1.1" 200 27
+ERROR 2026-03-06 09:57:39,840 views 31020 26492 Error in about page: division by zero
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2026-03-06 09:57:39,843 log 31020 26492 "GET /prefix/about/ HTTP/1.1" 200 27
+ERROR 2026-03-06 10:00:26,146 views 31020 24084 Error in about page: division by zero
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2026-03-06 10:00:26,148 log 31020 24084 "GET /prefix/about/ HTTP/1.1" 200 27
+ERROR 2026-03-06 10:05:12,691 views 31020 24084 Error in about page: division by zero
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2026-03-06 10:05:12,692 log 31020 24084 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2026-03-06 10:07:22,542 basehttp 31020 24084 - Broken pipe from ('192.168.1.80', 43942)
+INFO 2026-03-06 10:37:21,231 autoreload 15740 28632 Watching for file changes with StatReloader
+WARNING 2026-03-06 10:37:25,432 log 15740 9692 Not Found: /
+WARNING 2026-03-06 10:37:25,432 log 15740 9692 "GET / HTTP/1.1" 404 2319
+INFO 2026-03-06 10:37:41,473 views 15740 9692 Index page accessed
+INFO 2026-03-06 10:37:41,486 log 15740 9692 "GET /prefix/ HTTP/1.1" 200 13
+ERROR 2026-03-06 10:37:54,150 views 15740 9692 Error in about page: division by zero
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson_1\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2026-03-06 10:37:54,155 log 15740 9692 "GET /prefix/about/ HTTP/1.1" 200 27
+WARNING 2026-03-06 10:56:52,349 log 15740 20668 Not Found: /
+WARNING 2026-03-06 10:56:52,386 log 15740 20668 "GET / HTTP/1.1" 404 2319
+INFO 2026-03-06 14:46:09,762 autoreload 21808 2068 Watching for file changes with StatReloader
+WARNING 2026-03-06 14:46:19,001 log 21808 20800 Not Found: /
+WARNING 2026-03-06 14:46:19,001 log 21808 20800 "GET / HTTP/1.1" 404 2317
+INFO 2026-03-06 14:46:32,621 views 21808 20800 Index page accessed
+INFO 2026-03-06 14:46:32,621 log 21808 20800 "GET /prefix/ HTTP/1.1" 200 13
+ERROR 2026-03-06 14:46:52,570 views 21808 20800 Error in about page: division by zero
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2026-03-06 14:46:52,573 log 21808 20800 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2026-03-06 15:10:59,499 autoreload 3624 32600 Watching for file changes with StatReloader
+INFO 2026-03-09 15:57:02,630 autoreload 32900 15940 Watching for file changes with StatReloader
+WARNING 2026-03-09 15:57:12,741 log 32900 22936 Not Found: /
+WARNING 2026-03-09 15:57:12,742 log 32900 22936 "GET / HTTP/1.1" 404 2465
+INFO 2026-03-09 15:58:43,767 log 32900 22936 "GET /les3/hello HTTP/1.1" 301 0
+INFO 2026-03-09 15:58:44,331 log 32900 22936 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2026-03-09 16:00:02,679 log 32900 22936 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2026-03-09 16:07:09,501 autoreload 32900 15940 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\urls.py changed, reloading.
+INFO 2026-03-09 16:07:11,695 autoreload 15444 12916 Watching for file changes with StatReloader
+INFO 2026-03-09 18:50:16,300 autoreload 30640 10424 Watching for file changes with StatReloader
+INFO 2026-03-09 18:54:24,980 autoreload 30640 10424 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py changed, reloading.
+INFO 2026-03-09 18:54:25,725 autoreload 16168 34476 Watching for file changes with StatReloader
+INFO 2026-03-09 18:55:01,859 autoreload 23236 25400 Watching for file changes with StatReloader
+INFO 2026-03-09 18:56:34,697 autoreload 23236 25400 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\urls.py changed, reloading.
+INFO 2026-03-09 18:56:35,381 autoreload 7700 18416 Watching for file changes with StatReloader
+INFO 2026-03-09 18:57:01,767 autoreload 24820 34004 Watching for file changes with StatReloader
+WARNING 2026-03-09 18:57:05,986 log 24820 17816 Not Found: /
+WARNING 2026-03-09 18:57:05,987 log 24820 17816 "GET / HTTP/1.1" 404 2465
+WARNING 2026-03-09 18:58:01,725 log 24820 17816 Not Found: /les3/2022
+WARNING 2026-03-09 18:58:01,726 log 24820 17816 "GET /les3/2022 HTTP/1.1" 404 3774
+WARNING 2026-03-09 18:58:37,078 log 24820 17816 Not Found: /les3/post/2022
+WARNING 2026-03-09 18:58:37,079 log 24820 17816 "GET /les3/post/2022 HTTP/1.1" 404 3789
+INFO 2026-03-09 19:00:34,729 log 24820 23868 "GET /les3/posts/2022 HTTP/1.1" 301 0
+INFO 2026-03-09 19:00:34,739 log 24820 23868 "GET /les3/posts/2022/ HTTP/1.1" 200 19
+INFO 2026-03-09 19:19:39,928 log 24820 26864 "GET /les3/posts/2022/6 HTTP/1.1" 301 0
+INFO 2026-03-09 19:19:39,948 log 24820 26864 "GET /les3/posts/2022/6/ HTTP/1.1" 200 43
+INFO 2026-03-09 19:22:13,320 autoreload 24820 34004 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py changed, reloading.
+INFO 2026-03-09 19:22:14,137 autoreload 9004 15520 Watching for file changes with StatReloader
+INFO 2026-03-09 19:22:16,887 log 9004 27584 "GET /les3/posts/2022/6/ HTTP/1.1" 200 27
+INFO 2026-03-09 19:27:54,845 autoreload 9004 15520 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py changed, reloading.
+INFO 2026-03-09 19:27:55,596 autoreload 13136 5404 Watching for file changes with StatReloader
+INFO 2026-03-09 19:29:25,873 log 13136 9600 "GET /les3/posts/2022/6/python/ HTTP/1.1" 200 361
+WARNING 2026-03-09 19:29:25,955 log 13136 23316 Not Found: /favicon.ico
+WARNING 2026-03-09 19:29:25,955 log 13136 23316 "GET /favicon.ico HTTP/1.1" 404 2516
+INFO 2026-03-09 19:45:41,542 autoreload 13136 5404 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py changed, reloading.
+INFO 2026-03-09 19:45:42,930 autoreload 6944 34136 Watching for file changes with StatReloader
+INFO 2026-03-09 19:45:54,696 autoreload 6944 34136 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py changed, reloading.
+INFO 2026-03-09 19:45:55,368 autoreload 32168 21160 Watching for file changes with StatReloader
+INFO 2026-03-09 19:46:15,176 autoreload 32168 21160 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py changed, reloading.
+INFO 2026-03-09 19:46:15,934 autoreload 600 19320 Watching for file changes with StatReloader
+INFO 2026-03-09 19:50:23,993 autoreload 600 19320 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\urls.py changed, reloading.
+INFO 2026-03-09 19:50:24,854 autoreload 23900 18608 Watching for file changes with StatReloader
+INFO 2026-03-09 19:51:59,872 autoreload 23900 18608 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\urls.py changed, reloading.
+INFO 2026-03-09 19:52:00,697 autoreload 14552 9840 Watching for file changes with StatReloader
+INFO 2026-03-09 19:52:02,777 log 14552 19368 "GET /les3/ HTTP/1.1" 200 175
+INFO 2026-03-09 20:02:57,776 autoreload 14552 9840 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py changed, reloading.
+INFO 2026-03-09 20:02:59,052 autoreload 31176 12356 Watching for file changes with StatReloader
+INFO 2026-03-09 20:03:40,538 autoreload 31176 12356 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py changed, reloading.
+INFO 2026-03-09 20:03:41,227 autoreload 15456 16848 Watching for file changes with StatReloader
+INFO 2026-03-09 20:05:01,195 autoreload 15456 16848 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py changed, reloading.
+INFO 2026-03-09 20:05:01,959 autoreload 17356 25848 Watching for file changes with StatReloader
+INFO 2026-03-09 20:07:21,904 autoreload 17356 25848 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\urls.py changed, reloading.
+INFO 2026-03-09 20:07:22,585 autoreload 32628 22744 Watching for file changes with StatReloader
+INFO 2026-03-09 20:08:35,279 autoreload 32628 22744 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\urls.py changed, reloading.
+INFO 2026-03-09 20:08:36,159 autoreload 23788 20216 Watching for file changes with StatReloader
+INFO 2026-03-09 20:10:45,807 autoreload 23788 20216 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\urls.py changed, reloading.
+INFO 2026-03-09 20:10:46,517 autoreload 9124 6272 Watching for file changes with StatReloader
+INFO 2026-03-09 20:13:20,701 autoreload 9124 6272 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\urls.py changed, reloading.
+INFO 2026-03-09 20:13:21,463 autoreload 22972 27888 Watching for file changes with StatReloader
+INFO 2026-03-09 20:13:41,768 log 22972 18516 "GET /les3/if HTTP/1.1" 301 0
+INFO 2026-03-09 20:13:41,838 log 22972 18516 "GET /les3/if/ HTTP/1.1" 200 353
+INFO 2026-03-09 20:23:37,339 autoreload 22972 27888 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py changed, reloading.
+INFO 2026-03-09 20:23:38,390 autoreload 30204 23500 Watching for file changes with StatReloader
+INFO 2026-03-09 20:26:15,601 autoreload 30204 23500 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\urls.py changed, reloading.
+INFO 2026-03-09 20:26:16,432 autoreload 26740 19640 Watching for file changes with StatReloader
+INFO 2026-03-09 20:26:42,320 autoreload 26740 19640 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\urls.py changed, reloading.
+INFO 2026-03-09 20:26:43,021 autoreload 10164 26504 Watching for file changes with StatReloader
+INFO 2026-03-09 20:27:36,395 log 10164 7492 "GET /les3/for/ HTTP/1.1" 200 939
+INFO 2026-03-10 08:56:25,244 autoreload 10164 26504 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py changed, reloading.
+INFO 2026-03-10 08:56:28,651 autoreload 29976 11020 Watching for file changes with StatReloader
+INFO 2026-03-10 08:57:05,781 autoreload 29976 11020 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\urls.py changed, reloading.
+INFO 2026-03-10 08:57:06,597 autoreload 8820 22312 Watching for file changes with StatReloader
+INFO 2026-03-10 08:57:35,620 autoreload 8820 22312 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\urls.py changed, reloading.
+INFO 2026-03-10 08:57:36,452 autoreload 7252 27896 Watching for file changes with StatReloader
+INFO 2026-03-10 09:00:18,982 autoreload 7252 27896 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\urls.py changed, reloading.
+INFO 2026-03-10 09:00:19,852 autoreload 30752 18516 Watching for file changes with StatReloader
+INFO 2026-03-10 09:01:00,631 log 30752 15384 "GET /les3/index HTTP/1.1" 301 0
+INFO 2026-03-10 09:01:00,678 log 30752 15384 "GET /les3/index/ HTTP/1.1" 200 214
+INFO 2026-03-10 09:01:26,430 log 30752 15384 "GET /les3/about/ HTTP/1.1" 200 171
+INFO 2026-03-10 09:01:42,837 log 30752 15384 "GET /les3/about/ HTTP/1.1" 200 220
+WARNING 2026-03-10 09:02:36,019 log 30752 15384 Not Found: /
+WARNING 2026-03-10 09:02:36,019 log 30752 15384 "GET / HTTP/1.1" 404 2465
+INFO 2026-03-10 09:02:49,542 log 30752 15384 "GET /les3/ HTTP/1.1" 200 175
+INFO 2026-03-10 09:02:58,463 log 30752 15384 "GET /les3/about/ HTTP/1.1" 200 220
+INFO 2026-03-10 09:04:01,639 log 30752 15384 "GET /les3/about/ HTTP/1.1" 200 220
+INFO 2026-03-10 09:06:10,956 autoreload 30752 18516 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myproject_lesson\settings.py changed, reloading.
+INFO 2026-03-10 09:35:27,057 autoreload 14444 22336 Watching for file changes with StatReloader
+INFO 2026-03-10 09:35:31,651 log 14444 8460 "GET /les3/index/ HTTP/1.1" 200 274
+INFO 2026-03-10 09:38:05,956 autoreload 14444 22336 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myproject_lesson\urls.py changed, reloading.
+INFO 2026-03-10 09:38:06,745 autoreload 10648 26604 Watching for file changes with StatReloader
+INFO 2026-03-10 09:38:48,902 log 10648 20328 "GET / HTTP/1.1" 200 274
+INFO 2026-03-10 09:40:18,778 autoreload 10648 26604 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\models.py changed, reloading.
+INFO 2026-03-10 09:40:19,483 autoreload 24760 4212 Watching for file changes with StatReloader
+INFO 2026-03-10 09:41:09,881 autoreload 24760 4212 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\models.py changed, reloading.
+INFO 2026-03-10 09:41:10,615 autoreload 14684 27380 Watching for file changes with StatReloader
+INFO 2026-03-10 09:42:58,946 autoreload 14684 27380 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\models.py changed, reloading.
+INFO 2026-03-10 09:42:59,794 autoreload 8060 28076 Watching for file changes with StatReloader
+INFO 2026-03-10 11:03:05,199 autoreload 31644 21532 Watching for file changes with StatReloader
+WARNING 2026-03-10 11:03:28,482 log 31644 26972 Not Found: /les3/author/5/
+WARNING 2026-03-10 11:03:28,482 log 31644 26972 "GET /les3/author/5/ HTTP/1.1" 404 5785
+INFO 2026-03-10 11:06:22,966 log 31644 28312 "GET /les3 HTTP/1.1" 301 0
+INFO 2026-03-10 11:06:23,088 log 31644 28312 "GET /les3/ HTTP/1.1" 200 175
+WARNING 2026-03-10 11:06:38,146 log 31644 28312 Not Found: /les3/author
+WARNING 2026-03-10 11:06:38,146 log 31644 28312 "GET /les3/author HTTP/1.1" 404 5776
+INFO 2026-03-10 11:07:21,525 log 31644 28312 "GET /les3/author/5 HTTP/1.1" 200 1390
+INFO 2026-03-10 11:07:57,068 log 31644 28312 "GET /les3/post/50 HTTP/1.1" 200 674
+INFO 2026-03-10 11:08:10,318 log 31644 28312 "GET /les3/post/49 HTTP/1.1" 200 669
+INFO 2026-03-10 11:08:13,019 log 31644 28312 "GET /les3/post/48 HTTP/1.1" 200 670
+INFO 2026-03-10 11:08:16,084 log 31644 28312 "GET /les3/post/47 HTTP/1.1" 200 627
+INFO 2026-03-10 11:08:18,515 log 31644 28312 "GET /les3/post/46 HTTP/1.1" 200 658
+INFO 2026-03-29 12:09:04,044 autoreload 14732 24164 Watching for file changes with StatReloader
+INFO 2026-03-29 12:11:39,675 autoreload 22000 28508 Watching for file changes with StatReloader
+INFO 2026-03-29 12:15:47,285 autoreload 22000 28508 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py changed, reloading.
+INFO 2026-03-29 12:15:47,981 autoreload 27320 23536 Watching for file changes with StatReloader
+ERROR 2026-03-29 12:15:52,600 log 27320 26840 Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py", line 73, in index
+    return render(request,"blog/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/index.html
+ERROR 2026-03-29 12:15:52,605 log 27320 26840 "GET / HTTP/1.1" 500 83785
+INFO 2026-03-29 12:17:48,709 autoreload 27320 23536 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\urls.py changed, reloading.
+INFO 2026-03-29 12:17:49,738 autoreload 29344 29012 Watching for file changes with StatReloader
+ERROR 2026-03-29 12:17:52,581 log 29344 29736 Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py", line 73, in index
+    return render(request,"blog/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/index.html
+ERROR 2026-03-29 12:17:52,585 log 29344 29736 "GET / HTTP/1.1" 500 83785
+ERROR 2026-03-29 12:17:52,622 log 29344 29736 Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py", line 73, in index
+    return render(request,"blog/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/index.html
+ERROR 2026-03-29 12:17:52,624 log 29344 29736 "GET / HTTP/1.1" 500 83785
+ERROR 2026-03-29 12:18:04,299 log 29344 29736 Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py", line 73, in index
+    return render(request,"blog/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/index.html
+ERROR 2026-03-29 12:18:04,299 log 29344 29736 "GET / HTTP/1.1" 500 83785
+INFO 2026-03-29 12:21:25,562 autoreload 29344 29012 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\views.py changed, reloading.
+INFO 2026-03-29 12:21:26,288 autoreload 16076 28876 Watching for file changes with StatReloader
+INFO 2026-03-29 12:21:28,554 log 16076 7000 "GET / HTTP/1.1" 200 265
+INFO 2026-03-29 12:22:22,167 log 16076 7000 "GET /les4/user/add/ HTTP/1.1" 200 570
+INFO 2026-03-29 12:31:02,090 log 16076 22960 "GET /les4/user/add/ HTTP/1.1" 200 788
+ERROR 2026-03-29 12:33:02,254 log 16076 544 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 205, in _get_response
+    self.check_response(response, callback)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 333, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2026-03-29 12:33:02,256 log 16076 544 "POST /les4/user/add/ HTTP/1.1" 500 68863
+INFO 2026-03-29 12:34:14,498 autoreload 16076 28876 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-29 12:34:16,714 autoreload 6140 13796 Watching for file changes with StatReloader
+ERROR 2026-03-29 12:34:21,768 log 6140 22964 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 205, in _get_response
+    self.check_response(response, callback)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 333, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2026-03-29 12:34:21,771 log 6140 22964 "POST /les4/user/add/ HTTP/1.1" 500 68863
+INFO 2026-03-29 12:34:32,848 log 6140 22964 "GET /les4/user/add/ HTTP/1.1" 200 788
+ERROR 2026-03-29 12:34:41,620 log 6140 22964 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 205, in _get_response
+    self.check_response(response, callback)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 333, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2026-03-29 12:34:41,620 log 6140 22964 "POST /les4/user/add/ HTTP/1.1" 500 68863
+INFO 2026-03-29 12:35:46,872 autoreload 6140 13796 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-29 12:35:47,684 autoreload 29676 21660 Watching for file changes with StatReloader
+INFO 2026-03-29 12:37:27,964 autoreload 29676 21660 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-29 12:37:28,667 autoreload 8492 20036 Watching for file changes with StatReloader
+ERROR 2026-03-29 12:37:30,391 log 8492 22620 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 205, in _get_response
+    self.check_response(response, callback)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 333, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2026-03-29 12:37:30,391 log 8492 22620 "POST /les4/user/add/ HTTP/1.1" 500 68863
+ERROR 2026-03-29 12:37:38,253 log 8492 22620 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 205, in _get_response
+    self.check_response(response, callback)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 333, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2026-03-29 12:37:38,253 log 8492 22620 "POST /les4/user/add/ HTTP/1.1" 500 68863
+INFO 2026-03-29 12:39:54,482 autoreload 8492 20036 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-29 12:39:55,319 autoreload 14968 2300 Watching for file changes with StatReloader
+INFO 2026-03-29 12:40:37,458 autoreload 14968 2300 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-29 12:40:38,384 autoreload 31332 16868 Watching for file changes with StatReloader
+INFO 2026-03-29 12:40:43,510 log 31332 6720 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-29 12:40:46,489 log 31332 6720 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-29 12:40:48,032 log 31332 6720 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-29 12:40:48,733 log 31332 6720 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-29 12:41:54,043 log 31332 6720 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-29 12:42:25,945 log 31332 6720 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-29 12:46:47,282 autoreload 31248 23444 Watching for file changes with StatReloader
+INFO 2026-03-29 12:46:55,380 log 31248 29344 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-29 12:50:38,447 log 31248 24596 "GET / HTTP/1.1" 200 265
+INFO 2026-03-29 12:51:06,470 log 31248 24596 "GET / HTTP/1.1" 200 265
+INFO 2026-03-29 12:51:06,608 log 31248 24596 "GET / HTTP/1.1" 200 265
+INFO 2026-03-29 12:51:32,824 log 31248 24596 "GET /les4/user/add/ HTTP/1.1" 200 788
+INFO 2026-03-29 12:51:47,343 log 31248 24596 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-29 12:51:58,510 log 31248 24596 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-29 12:51:59,356 log 31248 24596 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-29 12:51:59,988 log 31248 24596 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-30 06:47:21,381 autoreload 26512 29820 Watching for file changes with StatReloader
+INFO 2026-03-30 06:47:25,544 log 26512 27796 "GET / HTTP/1.1" 200 265
+INFO 2026-03-30 06:47:25,548 log 26512 27796 "GET / HTTP/1.1" 200 265
+INFO 2026-03-30 06:48:36,167 log 26512 27796 "GET /les4/user/add/ HTTP/1.1" 200 788
+INFO 2026-03-30 06:48:51,489 log 26512 27796 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-30 07:13:51,813 autoreload 26512 29820 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-30 07:13:53,203 autoreload 26276 19460 Watching for file changes with StatReloader
+INFO 2026-03-30 07:16:42,719 autoreload 26276 19460 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-30 07:16:43,547 autoreload 29772 28248 Watching for file changes with StatReloader
+ERROR 2026-03-30 07:16:48,373 log 29772 29068 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py", line 23, in user_form
+    if form.is_valid():
+       ^^^^^^^^^^^^^
+AttributeError: module 'form' has no attribute 'is_valid'
+ERROR 2026-03-30 07:16:48,373 log 29772 29068 "POST /les4/user/add/ HTTP/1.1" 500 68125
+INFO 2026-03-30 07:17:30,579 autoreload 29772 28248 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-30 07:17:31,407 autoreload 4948 19388 Watching for file changes with StatReloader
+INFO 2026-03-30 07:18:51,400 autoreload 4948 19388 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-30 07:18:52,064 autoreload 20136 6632 Watching for file changes with StatReloader
+INFO 2026-03-30 07:19:11,064 autoreload 12668 25632 Watching for file changes with StatReloader
+INFO 2026-03-30 07:19:18,499 log 12668 28204 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-30 07:19:20,681 log 12668 28204 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-30 07:21:41,549 autoreload 12668 25632 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-30 07:21:42,261 autoreload 19356 10820 Watching for file changes with StatReloader
+INFO 2026-03-30 07:21:43,118 views 19356 18876 Получили name='имя', email='mail@mail.ru', age=12.
+INFO 2026-03-30 07:21:43,143 log 19356 18876 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-30 07:39:54,061 autoreload 19356 10820 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-30 07:39:54,931 autoreload 8584 25180 Watching for file changes with StatReloader
+INFO 2026-03-30 07:40:28,119 autoreload 8584 25180 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-30 07:40:28,840 autoreload 23012 17200 Watching for file changes with StatReloader
+INFO 2026-03-30 07:40:40,057 log 23012 19792 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-30 07:44:44,213 autoreload 23012 17200 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myproject_lesson\settings.py changed, reloading.
+INFO 2026-03-30 07:44:45,070 autoreload 28516 30676 Watching for file changes with StatReloader
+INFO 2026-03-30 07:44:46,583 views 28516 22772 Получили name='имя', email='mail@mail.ru', age=12.
+INFO 2026-03-30 07:44:46,599 log 28516 22772 "POST /les4/user/add/ HTTP/1.1" 200 835
+INFO 2026-03-30 07:48:50,507 autoreload 28516 30676 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\forms.py changed, reloading.
+INFO 2026-03-30 07:48:51,297 autoreload 6380 19344 Watching for file changes with StatReloader
+INFO 2026-03-30 07:52:28,015 autoreload 6380 19344 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-30 07:52:28,794 autoreload 25512 20372 Watching for file changes with StatReloader
+INFO 2026-03-30 07:53:11,109 autoreload 25512 20372 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-30 07:53:11,803 autoreload 30348 24976 Watching for file changes with StatReloader
+INFO 2026-03-30 07:54:30,718 autoreload 30348 24976 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-30 07:54:31,439 autoreload 18740 3988 Watching for file changes with StatReloader
+INFO 2026-03-30 07:58:55,511 autoreload 18740 3988 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\urls.py changed, reloading.
+INFO 2026-03-30 07:58:56,311 autoreload 29852 10912 Watching for file changes with StatReloader
+ERROR 2026-03-30 08:01:45,468 log 29852 12444 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py", line 29, in many_fields_form
+    return render(request, 'myapp4/many_fields_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\base.py", line 590, in parse
+    self.unclosed_block_tag(parse_until)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\template\base.py", line 657, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Template: G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\templates\myapp4\many_fields_form.html, Unclosed tag on line 3: 'block'. Looking for one of: endblock.
+ERROR 2026-03-30 08:01:45,474 log 29852 12444 "GET /les4/forms/ HTTP/1.1" 500 163932
+INFO 2026-03-30 08:02:06,867 log 29852 12444 "GET /les4/forms/ HTTP/1.1" 200 1472
+INFO 2026-03-30 08:04:15,544 log 29852 22700 "POST /les4/forms/ HTTP/1.1" 200 1689
+INFO 2026-03-30 08:06:59,923 log 29852 24168 "POST /les4/forms/ HTTP/1.1" 200 1689
+INFO 2026-03-30 08:09:41,138 log 29852 21940 "POST /les4/forms/ HTTP/1.1" 200 1688
+INFO 2026-03-30 08:09:57,129 views 29852 21940 Получили form.cleaned_data={'name': 'имя', 'email': 'mail@mail.ru', 'age': 23, 'height': 150.5, 'is_active': True, 'birthdate': datetime.date(2012, 10, 20), 'gender': 'M'}.
+INFO 2026-03-30 08:09:57,129 log 29852 21940 "POST /les4/forms/ HTTP/1.1" 200 1550
+INFO 2026-03-30 08:35:37,943 autoreload 29852 10912 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\forms.py changed, reloading.
+INFO 2026-03-30 08:35:40,529 autoreload 31184 27832 Watching for file changes with StatReloader
+INFO 2026-03-30 08:39:39,886 autoreload 31184 27832 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\forms.py changed, reloading.
+INFO 2026-03-30 08:39:40,620 autoreload 8220 12408 Watching for file changes with StatReloader
+INFO 2026-03-30 08:42:29,403 autoreload 8220 12408 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-30 08:42:30,208 autoreload 15800 25772 Watching for file changes with StatReloader
+INFO 2026-03-30 09:01:48,631 autoreload 15800 25772 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-30 09:01:49,604 autoreload 16472 25932 Watching for file changes with StatReloader
+INFO 2026-03-30 09:04:52,598 autoreload 16472 25932 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\urls.py changed, reloading.
+INFO 2026-03-30 09:04:53,378 autoreload 28408 27620 Watching for file changes with StatReloader
+INFO 2026-03-30 09:05:26,769 log 28408 11716 "GET /les4/formsw/ HTTP/1.1" 200 2093
+INFO 2026-03-30 09:08:28,115 views 28408 21036 Получили form.cleaned_data={'name': 'Алексей', 'email': 'mail@mail.ru', 'age': 26, 'height': 170.0, 'is_active': True, 'birthdate': datetime.date(2026, 3, 30), 'gender': 'F', 'message': 'Какой-нибудь текст'}.
+INFO 2026-03-30 09:08:28,124 log 28408 21036 "POST /les4/formsw/ HTTP/1.1" 200 2210
+INFO 2026-03-30 09:10:23,662 autoreload 28408 27620 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\forms.py changed, reloading.
+INFO 2026-03-30 09:10:24,482 autoreload 13168 20152 Watching for file changes with StatReloader
+INFO 2026-03-30 09:13:23,342 views 13168 13148 Получили form.cleaned_data={'name': 'Алексей', 'email': 'mail@mail.ru', 'age': 26, 'height': 170.0, 'is_active': True, 'birthdate': datetime.date(2026, 3, 30), 'gender': 'F', 'message': 'Какой-нибудь текст'}.
+INFO 2026-03-30 09:13:23,371 log 13168 13148 "POST /les4/formsw/ HTTP/1.1" 200 2210
+INFO 2026-03-30 09:17:09,938 autoreload 13168 20152 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-30 09:17:10,728 autoreload 30884 10384 Watching for file changes with StatReloader
+INFO 2026-03-30 09:18:47,470 autoreload 30884 10384 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-30 09:18:48,199 autoreload 28544 31232 Watching for file changes with StatReloader
+INFO 2026-03-30 09:22:59,484 autoreload 28544 31232 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\forms.py changed, reloading.
+INFO 2026-03-30 09:23:00,259 autoreload 30392 31128 Watching for file changes with StatReloader
+INFO 2026-03-30 09:23:52,376 autoreload 30392 31128 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\forms.py changed, reloading.
+INFO 2026-03-30 09:23:53,063 autoreload 3668 12208 Watching for file changes with StatReloader
+INFO 2026-03-30 09:29:26,910 autoreload 3668 12208 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\models.py changed, reloading.
+INFO 2026-03-30 09:29:27,766 autoreload 5736 23152 Watching for file changes with StatReloader
+INFO 2026-03-30 09:29:44,677 autoreload 5736 23152 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\models.py changed, reloading.
+INFO 2026-03-30 09:29:45,430 autoreload 23692 17104 Watching for file changes with StatReloader
+INFO 2026-03-31 08:10:05,656 autoreload 28556 29700 Watching for file changes with StatReloader
+INFO 2026-03-31 08:10:44,017 basehttp 28556 8336 - Broken pipe from ('127.0.0.1', 6715)
+INFO 2026-03-31 08:10:44,046 log 28556 34308 "GET /les4/user/ HTTP/1.1" 200 827
+INFO 2026-03-31 08:11:51,719 views 28556 34308 Получили name='Я', email='mail@mail.ru', age=16.
+INFO 2026-03-31 08:11:51,918 log 28556 34308 "POST /les4/user/ HTTP/1.1" 200 882
+INFO 2026-03-31 08:11:54,833 views 28556 34308 Получили name='Я', email='mail@mail.ru', age=16.
+INFO 2026-03-31 08:11:55,012 log 28556 34308 "POST /les4/user/ HTTP/1.1" 200 882
+INFO 2026-03-31 08:12:47,585 autoreload 28556 29700 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\forms.py changed, reloading.
+INFO 2026-03-31 08:12:48,606 autoreload 30924 30356 Watching for file changes with StatReloader
+INFO 2026-03-31 08:12:52,138 log 30924 22656 "POST /les4/user/ HTTP/1.1" 200 1220
+INFO 2026-03-31 08:14:15,515 views 30924 22656 Получили name='Алексей', email='mail@corp.mail.ru', age=16.
+INFO 2026-03-31 08:14:15,652 log 30924 22656 "POST /les4/user/ HTTP/1.1" 200 899
+INFO 2026-03-31 08:21:39,764 autoreload 30924 30356 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\forms.py changed, reloading.
+INFO 2026-03-31 08:21:41,505 autoreload 12356 23516 Watching for file changes with StatReloader
+INFO 2026-03-31 08:22:04,605 autoreload 12356 23516 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\forms.py changed, reloading.
+INFO 2026-03-31 08:22:05,460 autoreload 31212 31880 Watching for file changes with StatReloader
+INFO 2026-03-31 08:24:25,094 autoreload 31212 31880 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myproject_lesson\settings.py changed, reloading.
+INFO 2026-03-31 08:24:25,923 autoreload 27952 23868 Watching for file changes with StatReloader
+INFO 2026-03-31 08:25:59,390 autoreload 27952 23868 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-31 08:26:00,273 autoreload 32524 26172 Watching for file changes with StatReloader
+INFO 2026-03-31 08:26:38,639 autoreload 32524 26172 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\views.py changed, reloading.
+INFO 2026-03-31 08:26:39,364 autoreload 25736 20412 Watching for file changes with StatReloader
+INFO 2026-03-31 08:28:45,468 autoreload 25736 20412 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp4\urls.py changed, reloading.
+INFO 2026-03-31 08:28:46,373 autoreload 3440 33928 Watching for file changes with StatReloader
+INFO 2026-03-31 08:32:27,347 log 3440 25372 "GET /les4/upload/ HTTP/1.1" 200 623
+INFO 2026-03-31 08:34:22,868 log 3440 14116 "POST /les4/upload/ HTTP/1.1" 200 623
+INFO 2026-03-31 08:38:37,569 log 3440 33344 "POST /les4/upload/ HTTP/1.1" 200 623
+INFO 2026-04-09 15:28:09,389 autoreload 19376 28880 Watching for file changes with StatReloader
+INFO 2026-04-09 15:28:32,686 log 19376 25912 "GET / HTTP/1.1" 200 265
+INFO 2026-04-09 15:29:05,096 log 19376 25912 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 15:29:05,245 log 19376 25912 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4080
+INFO 2026-04-09 15:29:05,851 log 19376 18520 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-04-09 15:29:05,853 log 19376 25912 "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+INFO 2026-04-09 15:29:05,854 log 19376 18520 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16273
+INFO 2026-04-09 15:29:05,880 log 19376 12908 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-04-09 15:29:05,882 log 19376 11120 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+INFO 2026-04-09 15:29:05,904 log 19376 22832 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-04-09 15:29:05,911 log 19376 8628 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-04-09 15:31:21,990 autoreload 19376 28880 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myproject_lesson\settings.py changed, reloading.
+INFO 2026-04-09 15:31:22,838 autoreload 19748 28536 Watching for file changes with StatReloader
+INFO 2026-04-09 15:32:05,679 log 19748 26308 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4281
+INFO 2026-04-09 15:46:16,423 autoreload 26104 21932 Watching for file changes with StatReloader
+ERROR 2026-04-09 15:46:41,988 log 26104 5652 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\base\base.py", line 303, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\admin\sites.py", line 450, in login
+    return LoginView.as_view(**defaults)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\auth\views.py", line 89, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\generic\base.py", line 145, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\generic\edit.py", line 151, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\auth\views.py", line 108, in form_valid
+    auth_login(self.request, form.get_user())
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 187, in login
+    request.session.cycle_key()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\sessions\backends\base.py", line 434, in cycle_key
+    self.create()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\sessions\backends\db.py", line 74, in create
+    self.save(must_create=True)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\sessions\backends\db.py", line 126, in save
+    with transaction.atomic(using=using):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\transaction.py", line 263, in __exit__
+    connection.commit()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\base\base.py", line 327, in commit
+    self._commit()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\base\base.py", line 302, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\utils.py", line 94, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\base\base.py", line 303, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2026-04-09 15:46:42,000 log 26104 5652 "POST /admin/login/?next=/admin/ HTTP/1.1" 500 180438
+INFO 2026-04-09 15:46:47,889 log 26104 5652 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4281
+INFO 2026-04-09 15:46:51,002 log 26104 5652 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4281
+ERROR 2026-04-09 15:47:06,472 log 26104 5652 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\base\base.py", line 303, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\admin\sites.py", line 450, in login
+    return LoginView.as_view(**defaults)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\auth\views.py", line 89, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\generic\base.py", line 145, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\generic\edit.py", line 151, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\auth\views.py", line 108, in form_valid
+    auth_login(self.request, form.get_user())
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 187, in login
+    request.session.cycle_key()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\sessions\backends\base.py", line 434, in cycle_key
+    self.create()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\sessions\backends\db.py", line 74, in create
+    self.save(must_create=True)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\sessions\backends\db.py", line 126, in save
+    with transaction.atomic(using=using):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\transaction.py", line 263, in __exit__
+    connection.commit()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\base\base.py", line 327, in commit
+    self._commit()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\base\base.py", line 302, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\utils.py", line 94, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\base\base.py", line 303, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2026-04-09 15:47:06,475 log 26104 5652 "POST /admin/login/?next=/admin/ HTTP/1.1" 500 180438
+INFO 2026-04-09 15:47:43,603 log 26104 5652 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 15:47:43,631 log 26104 5652 "GET /admin/ HTTP/1.1" 200 6481
+INFO 2026-04-09 15:47:43,770 log 26104 5652 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-04-09 15:47:43,816 log 26104 27312 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+INFO 2026-04-09 15:47:43,816 log 26104 5652 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+INFO 2026-04-09 15:52:44,819 log 26104 13620 "GET /admin/auth/user/ HTTP/1.1" 200 12843
+INFO 2026-04-09 15:52:44,878 log 26104 13620 "GET /static/admin/css/changelists.css HTTP/1.1" 200 7498
+INFO 2026-04-09 15:52:44,882 log 26104 10252 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-04-09 15:52:44,884 log 26104 23424 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2026-04-09 15:52:44,895 log 26104 22184 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2026-04-09 15:52:44,898 log 26104 10252 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-04-09 15:52:44,899 log 26104 13620 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2026-04-09 15:52:44,899 log 26104 23424 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-04-09 15:52:44,904 log 26104 9988 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 15:52:44,911 log 26104 992 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-04-09 15:52:44,914 log 26104 10252 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2026-04-09 15:52:44,920 log 26104 22184 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-04-09 15:52:44,928 log 26104 992 "GET /static/admin/img/search.svg HTTP/1.1" 200 607
+INFO 2026-04-09 15:52:44,928 log 26104 9988 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 558
+INFO 2026-04-09 15:52:44,997 log 26104 22184 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 593
+INFO 2026-04-09 15:52:44,998 log 26104 992 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 928
+INFO 2026-04-09 15:52:45,000 log 26104 9988 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1761
+INFO 2026-04-09 15:53:31,246 log 26104 22184 "GET /admin/auth/user/add/ HTTP/1.1" 200 13421
+INFO 2026-04-09 15:53:31,304 log 26104 992 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 15:53:31,304 log 26104 22184 "GET /static/admin/css/forms.css HTTP/1.1" 200 8831
+INFO 2026-04-09 15:53:31,308 log 26104 22184 "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+INFO 2026-04-09 15:53:31,308 log 26104 9988 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-04-09 15:53:31,308 log 26104 992 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-04-09 15:53:31,340 log 26104 22184 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11811
+INFO 2026-04-09 15:55:04,314 log 26104 22184 "POST /admin/auth/user/add/ HTTP/1.1" 200 13989
+INFO 2026-04-09 15:55:04,355 log 26104 22184 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 15:55:48,546 log 26104 22184 "POST /admin/auth/user/add/ HTTP/1.1" 200 13810
+INFO 2026-04-09 15:55:48,658 log 26104 22184 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 16:30:11,246 log 26104 13600 "GET / HTTP/1.1" 200 265
+INFO 2026-04-09 16:30:25,400 log 26104 13600 "GET /admin/ HTTP/1.1" 200 6481
+INFO 2026-04-09 16:30:30,388 basehttp 26104 13600 - Broken pipe from ('127.0.0.1', 45450)
+INFO 2026-04-09 16:30:30,401 log 26104 18276 "GET /admin/auth/user/ HTTP/1.1" 200 12843
+INFO 2026-04-09 16:30:30,536 log 26104 18276 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 16:30:33,394 log 26104 18276 "GET /admin/auth/user/add/ HTTP/1.1" 200 13421
+INFO 2026-04-09 16:30:33,443 log 26104 26908 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 16:31:19,915 log 26104 18276 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2026-04-09 16:31:20,042 log 26104 26908 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 26783
+INFO 2026-04-09 16:31:20,125 log 26104 18276 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9159
+INFO 2026-04-09 16:31:20,131 log 26104 26120 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19698
+INFO 2026-04-09 16:31:20,131 log 26104 11064 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2026-04-09 16:31:20,132 log 26104 26908 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 16:31:20,132 log 26104 17048 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 16428
+INFO 2026-04-09 16:31:20,236 log 26104 26120 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1112
+INFO 2026-04-09 16:31:20,236 log 26104 17048 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 805
+INFO 2026-04-09 16:31:20,236 log 26104 26908 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 2387
+INFO 2026-04-09 16:37:25,241 log 26104 19860 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2026-04-09 16:37:25,266 log 26104 19860 "GET /admin/auth/user/ HTTP/1.1" 200 13581
+INFO 2026-04-09 16:37:25,329 log 26104 19860 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 16:37:33,988 log 26104 19860 "GET /admin/auth/group/add/ HTTP/1.1" 200 14698
+INFO 2026-04-09 16:37:34,047 log 26104 19860 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 16:39:01,610 log 26104 19860 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2026-04-09 16:39:01,633 log 26104 19860 "GET /admin/auth/group/ HTTP/1.1" 200 10299
+INFO 2026-04-09 16:39:01,682 log 26104 19860 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 16:39:05,906 log 26104 19860 "GET /admin/auth/user/ HTTP/1.1" 200 13666
+INFO 2026-04-09 16:39:05,960 log 26104 15664 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 16:39:07,699 log 26104 19860 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 26567
+INFO 2026-04-09 16:39:07,773 log 26104 15664 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 16:39:34,090 log 26104 19860 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2026-04-09 16:39:34,116 log 26104 19860 "GET /admin/auth/user/ HTTP/1.1" 200 13887
+INFO 2026-04-09 16:39:34,181 log 26104 15664 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 16:41:25,973 log 26104 19860 "POST /admin/logout/ HTTP/1.1" 200 3739
+INFO 2026-04-09 16:41:56,808 log 26104 19860 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 16:41:56,836 log 26104 19860 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4281
+INFO 2026-04-09 16:42:24,745 log 26104 19860 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 16:42:24,766 log 26104 19860 "GET /admin/ HTTP/1.1" 200 4838
+INFO 2026-04-09 16:46:08,400 autoreload 26104 21932 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\models.py changed, reloading.
+INFO 2026-04-09 16:46:10,918 autoreload 28956 12696 Watching for file changes with StatReloader
+INFO 2026-04-09 16:54:12,275 autoreload 26184 13892 Watching for file changes with StatReloader
+INFO 2026-04-09 16:54:17,555 log 26184 15820 "GET /admin/ HTTP/1.1" 200 4838
+ERROR 2026-04-09 16:54:37,753 log 26184 15820 Internal Server Error: /admin/logout/
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 359, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\admin\sites.py", line 266, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\admin\sites.py", line 247, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\admin\sites.py", line 411, in logout
+    return LogoutView.as_view(**defaults)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\generic\base.py", line 145, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\auth\views.py", line 137, in post
+    auth_logout(request)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 258, in logout
+    request.session.flush()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\sessions\backends\base.py", line 420, in flush
+    self.delete()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\sessions\backends\db.py", line 175, in delete
+    self.model.objects.get(session_key=session_key).delete()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\models\base.py", line 1300, in delete
+    return collector.delete()
+           ^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\models\deletion.py", line 452, in delete
+    count = sql.DeleteQuery(model).delete_batch(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\models\sql\subqueries.py", line 43, in delete_batch
+    num_deleted += self.do_query(
+                   ^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\models\sql\subqueries.py", line 25, in do_query
+    return self.get_compiler(using).execute_sql(ROW_COUNT)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1624, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\utils.py", line 94, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 359, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2026-04-09 16:54:37,768 log 26184 15820 "POST /admin/logout/ HTTP/1.1" 500 213182
+ERROR 2026-04-09 16:54:51,034 log 26184 15820 Internal Server Error: /admin/logout/
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 359, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\admin\sites.py", line 266, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\admin\sites.py", line 247, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\admin\sites.py", line 411, in logout
+    return LogoutView.as_view(**defaults)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\generic\base.py", line 145, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\auth\views.py", line 137, in post
+    auth_logout(request)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 258, in logout
+    request.session.flush()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\sessions\backends\base.py", line 420, in flush
+    self.delete()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\sessions\backends\db.py", line 175, in delete
+    self.model.objects.get(session_key=session_key).delete()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\models\base.py", line 1300, in delete
+    return collector.delete()
+           ^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\models\deletion.py", line 452, in delete
+    count = sql.DeleteQuery(model).delete_batch(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\models\sql\subqueries.py", line 43, in delete_batch
+    num_deleted += self.do_query(
+                   ^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\models\sql\subqueries.py", line 25, in do_query
+    return self.get_compiler(using).execute_sql(ROW_COUNT)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1624, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\utils.py", line 94, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 359, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2026-04-09 16:54:51,038 log 26184 15820 "POST /admin/logout/ HTTP/1.1" 500 213182
+INFO 2026-04-09 16:55:00,191 log 26184 15820 "GET /admin HTTP/1.1" 301 0
+INFO 2026-04-09 16:55:00,215 log 26184 15820 "GET /admin/ HTTP/1.1" 200 4838
+ERROR 2026-04-09 16:55:09,444 log 26184 15820 Internal Server Error: /admin/logout/
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 359, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\admin\sites.py", line 266, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\admin\sites.py", line 247, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\admin\sites.py", line 411, in logout
+    return LogoutView.as_view(**defaults)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\views\generic\base.py", line 145, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\auth\views.py", line 137, in post
+    auth_logout(request)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 258, in logout
+    request.session.flush()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\sessions\backends\base.py", line 420, in flush
+    self.delete()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\sessions\backends\db.py", line 175, in delete
+    self.model.objects.get(session_key=session_key).delete()
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\models\base.py", line 1300, in delete
+    return collector.delete()
+           ^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\models\deletion.py", line 452, in delete
+    count = sql.DeleteQuery(model).delete_batch(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\models\sql\subqueries.py", line 43, in delete_batch
+    num_deleted += self.do_query(
+                   ^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\models\sql\subqueries.py", line 25, in do_query
+    return self.get_compiler(using).execute_sql(ROW_COUNT)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1624, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\utils.py", line 94, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 359, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2026-04-09 16:55:09,447 log 26184 15820 "POST /admin/logout/ HTTP/1.1" 500 213182
+INFO 2026-04-09 16:55:35,140 log 26184 15820 "POST /admin/logout/ HTTP/1.1" 200 3739
+INFO 2026-04-09 16:55:42,401 log 26184 15820 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 16:55:42,492 log 26184 15820 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4281
+INFO 2026-04-09 16:56:02,259 log 26184 15820 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 16:56:02,278 log 26184 15820 "GET /admin/ HTTP/1.1" 200 9744
+INFO 2026-04-09 16:58:05,392 autoreload 26184 13892 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp3\admin.py changed, reloading.
+INFO 2026-04-09 16:58:06,184 autoreload 17104 19572 Watching for file changes with StatReloader
+INFO 2026-04-09 16:58:43,694 basehttp 17104 12732 - Broken pipe from ('127.0.0.1', 34110)
+INFO 2026-04-09 16:58:45,492 log 17104 29240 "GET /admin/ HTTP/1.1" 200 11472
+INFO 2026-04-09 16:58:46,138 log 17104 29240 "GET /admin/ HTTP/1.1" 200 11472
+INFO 2026-04-09 16:58:49,702 log 17104 29240 "GET /admin/ HTTP/1.1" 200 11472
+INFO 2026-04-09 16:58:50,350 log 17104 29240 "GET /admin/ HTTP/1.1" 200 11472
+INFO 2026-04-09 17:37:11,074 log 17104 15060 "POST /admin/logout/ HTTP/1.1" 200 3739
+INFO 2026-04-09 17:37:13,051 log 17104 15060 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 17:37:13,172 log 17104 8016 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 17:37:13,351 basehttp 17104 15060 - Broken pipe from ('127.0.0.1', 12694)
+INFO 2026-04-09 17:37:13,351 log 17104 8016 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4281
+INFO 2026-04-09 17:37:58,561 log 17104 8016 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 17:37:58,590 log 17104 8016 "GET /admin/ HTTP/1.1" 200 4838
+INFO 2026-04-09 17:38:26,035 log 17104 8016 "POST /admin/logout/ HTTP/1.1" 200 3739
+INFO 2026-04-09 17:38:29,088 log 17104 8016 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 17:38:29,099 log 17104 8016 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4281
+INFO 2026-04-09 17:39:30,959 log 17104 8016 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 17:39:30,976 log 17104 8016 "GET /admin/ HTTP/1.1" 200 4838
+INFO 2026-04-09 17:39:43,357 basehttp 17104 8016 - Broken pipe from ('127.0.0.1', 6347)
+INFO 2026-04-09 17:39:43,358 log 17104 25652 "GET / HTTP/1.1" 200 265
+INFO 2026-04-09 17:39:45,606 log 17104 25652 "GET /admin/ HTTP/1.1" 200 4838
+INFO 2026-04-09 17:39:49,090 log 17104 25652 "GET /admin/password_change/ HTTP/1.1" 200 6985
+INFO 2026-04-09 17:39:56,776 log 17104 25652 "POST /admin/logout/ HTTP/1.1" 200 3739
+INFO 2026-04-09 17:40:01,638 log 17104 25652 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 17:40:01,650 log 17104 25652 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4281
+INFO 2026-04-09 17:40:17,854 log 17104 25652 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4562
+INFO 2026-04-09 17:40:27,069 log 17104 25652 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 17:40:27,087 log 17104 25652 "GET /admin/ HTTP/1.1" 200 11472
+INFO 2026-04-09 17:40:32,615 log 17104 25652 "GET /admin/auth/user/ HTTP/1.1" 200 16436
+INFO 2026-04-09 17:40:32,682 log 17104 25652 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 17:40:37,323 log 17104 25652 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 29932
+INFO 2026-04-09 17:40:37,367 log 17104 29592 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 17:41:25,967 log 17104 25652 "GET /admin/auth/user/2/history/ HTTP/1.1" 200 10460
+INFO 2026-04-09 17:41:37,951 basehttp 17104 25652 - Broken pipe from ('127.0.0.1', 6354)
+INFO 2026-04-09 17:41:37,965 log 17104 29592 "GET /admin/auth/user/ HTTP/1.1" 200 16436
+INFO 2026-04-09 17:41:39,562 log 17104 29592 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 29932
+INFO 2026-04-09 17:41:39,616 log 17104 29592 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 17:42:05,542 log 17104 29592 "GET /admin/auth/group/add/?_to_field=id&_popup=1 HTTP/1.1" 200 10874
+INFO 2026-04-09 17:42:05,616 log 17104 29592 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 17:42:25,097 log 17104 29592 "GET /admin/password_change/ HTTP/1.1" 200 11050
+INFO 2026-04-09 17:42:31,716 log 17104 29592 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 29932
+INFO 2026-04-09 17:42:53,075 log 17104 29592 "POST /admin/logout/ HTTP/1.1" 200 3739
+INFO 2026-04-09 17:42:54,419 log 17104 29592 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 17:42:54,438 log 17104 29592 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4281
+INFO 2026-04-09 17:43:19,818 log 17104 29592 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 17:43:19,836 log 17104 29592 "GET /admin/ HTTP/1.1" 200 4838
+INFO 2026-04-09 17:44:31,553 log 17104 29592 "POST /admin/logout/ HTTP/1.1" 200 3739
+INFO 2026-04-09 17:44:33,503 log 17104 29592 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 17:44:33,513 log 17104 29592 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4281
+INFO 2026-04-09 17:44:40,526 log 17104 29592 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-09 17:44:40,542 log 17104 29592 "GET /admin/ HTTP/1.1" 200 11472
+INFO 2026-04-09 17:44:44,756 log 17104 29592 "GET /admin/auth/user/ HTTP/1.1" 200 16436
+INFO 2026-04-09 17:44:44,806 log 17104 29592 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 17:44:50,335 log 17104 29592 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 29932
+INFO 2026-04-09 17:44:50,380 log 17104 29592 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 17:48:48,883 log 17104 14008 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2026-04-09 17:48:48,927 log 17104 14008 "GET /admin/auth/user/ HTTP/1.1" 200 16657
+INFO 2026-04-09 17:48:49,036 log 17104 14008 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 17:48:59,959 log 17104 14008 "GET /admin/auth/group/ HTTP/1.1" 200 12856
+INFO 2026-04-09 17:49:00,006 log 17104 14008 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 17:49:02,213 log 17104 14008 "GET /admin/auth/group/1/change/ HTTP/1.1" 200 18280
+INFO 2026-04-09 17:49:02,262 log 17104 24956 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 17:49:06,024 log 17104 14008 "GET /admin/auth/user/ HTTP/1.1" 200 16436
+INFO 2026-04-09 17:49:06,068 log 17104 24956 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 17:49:12,983 log 17104 14008 "GET /admin/auth/user/?o=5.1 HTTP/1.1" 200 17164
+INFO 2026-04-09 17:49:13,022 log 17104 24956 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-09 17:49:18,673 log 17104 14008 "GET /admin/auth/user/2/change/?_changelist_filters=o%3D5.1 HTTP/1.1" 200 30026
+INFO 2026-04-09 17:49:18,719 log 17104 24956 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:31:09,895 autoreload 28808 18436 Watching for file changes with StatReloader
+INFO 2026-04-10 07:31:14,196 log 28808 25380 "GET / HTTP/1.1" 200 265
+INFO 2026-04-10 07:31:30,101 log 28808 25380 "GET /admin/ HTTP/1.1" 200 11843
+INFO 2026-04-10 07:31:32,840 log 28808 25380 "GET /admin/ HTTP/1.1" 200 11843
+INFO 2026-04-10 07:31:32,944 log 28808 25380 "GET /admin/ HTTP/1.1" 200 11843
+INFO 2026-04-10 07:31:41,271 basehttp 28808 6488 - Broken pipe from ('127.0.0.1', 50559)
+INFO 2026-04-10 07:31:41,271 basehttp 28808 25380 - Broken pipe from ('127.0.0.1', 50555)
+INFO 2026-04-10 07:31:41,271 log 28808 10028 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 29932
+INFO 2026-04-10 07:31:41,370 log 28808 10028 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:31:44,355 log 28808 10028 "POST /admin/logout/ HTTP/1.1" 200 3739
+INFO 2026-04-10 07:31:46,141 log 28808 10028 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-10 07:31:46,172 log 28808 10028 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4281
+INFO 2026-04-10 07:32:24,817 log 28808 10028 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-10 07:32:24,841 log 28808 10028 "GET /admin/ HTTP/1.1" 200 4838
+INFO 2026-04-10 07:35:17,460 log 28808 21728 "POST /admin/logout/ HTTP/1.1" 200 3739
+INFO 2026-04-10 07:35:19,305 log 28808 21728 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-10 07:35:19,327 log 28808 21728 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4281
+INFO 2026-04-10 07:35:26,931 log 28808 21728 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-10 07:35:26,952 log 28808 21728 "GET /admin/ HTTP/1.1" 200 11843
+INFO 2026-04-10 07:35:43,839 log 28808 21728 "GET /admin/auth/user/ HTTP/1.1" 200 16436
+INFO 2026-04-10 07:35:43,929 log 28808 21728 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:37:59,063 log 28808 10392 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 29932
+INFO 2026-04-10 07:37:59,132 log 28808 20856 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:39:57,768 log 28808 20788 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2026-04-10 07:39:57,797 log 28808 20788 "GET /admin/auth/user/ HTTP/1.1" 200 16657
+INFO 2026-04-10 07:39:57,865 log 28808 20788 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:40:04,225 log 28808 20788 "GET /admin/auth/group/add/ HTTP/1.1" 200 18018
+INFO 2026-04-10 07:40:04,283 log 28808 20788 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:42:00,330 log 28808 7388 "POST /admin/auth/group/add/ HTTP/1.1" 200 18364
+INFO 2026-04-10 07:42:00,403 log 28808 7388 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:42:21,095 log 28808 7388 "GET /admin/auth/group/add/ HTTP/1.1" 200 18018
+INFO 2026-04-10 07:42:21,148 log 28808 7388 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:42:25,074 log 28808 7388 "GET /admin/auth/group/ HTTP/1.1" 200 12856
+INFO 2026-04-10 07:42:25,135 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:42:31,178 log 28808 7388 "POST /admin/auth/group/ HTTP/1.1" 302 0
+INFO 2026-04-10 07:42:31,214 log 28808 7388 "GET /admin/auth/group/ HTTP/1.1" 200 12999
+INFO 2026-04-10 07:42:31,268 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:42:31,554 log 28808 18712 "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 684
+INFO 2026-04-10 07:42:32,540 log 28808 7388 "POST /admin/auth/group/ HTTP/1.1" 302 0
+INFO 2026-04-10 07:42:32,571 log 28808 7388 "GET /admin/auth/group/ HTTP/1.1" 200 13126
+INFO 2026-04-10 07:42:32,615 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:42:35,734 log 28808 7388 "POST /admin/auth/group/ HTTP/1.1" 302 0
+INFO 2026-04-10 07:42:35,762 log 28808 7388 "GET /admin/auth/group/ HTTP/1.1" 200 13126
+INFO 2026-04-10 07:42:35,810 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:42:41,426 log 28808 7388 "POST /admin/auth/group/ HTTP/1.1" 302 0
+INFO 2026-04-10 07:42:41,451 log 28808 7388 "GET /admin/auth/group/ HTTP/1.1" 200 12999
+INFO 2026-04-10 07:42:41,490 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:42:47,027 log 28808 7388 "POST /admin/auth/group/ HTTP/1.1" 200 11189
+INFO 2026-04-10 07:42:47,078 log 28808 18712 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2026-04-10 07:42:50,675 log 28808 7388 "POST /admin/auth/group/ HTTP/1.1" 302 0
+INFO 2026-04-10 07:42:50,694 log 28808 7388 "GET /admin/auth/group/ HTTP/1.1" 200 11534
+INFO 2026-04-10 07:42:50,734 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:42:54,156 log 28808 7388 "GET /admin/auth/user/ HTTP/1.1" 200 16130
+INFO 2026-04-10 07:42:54,208 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:42:56,202 log 28808 7388 "GET /admin/auth/group/add/ HTTP/1.1" 200 18018
+INFO 2026-04-10 07:42:56,258 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:43:51,172 log 28808 7388 "GET /admin/auth/user/ HTTP/1.1" 200 16130
+INFO 2026-04-10 07:43:51,227 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:43:53,346 log 28808 7388 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 29882
+INFO 2026-04-10 07:43:53,400 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:43:59,157 log 28808 7388 "GET /admin/auth/group/ HTTP/1.1" 200 11383
+INFO 2026-04-10 07:43:59,205 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:44:00,973 log 28808 7388 "GET /admin/auth/group/add/ HTTP/1.1" 200 18018
+INFO 2026-04-10 07:44:01,034 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:44:58,746 log 28808 7388 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2026-04-10 07:44:58,778 log 28808 7388 "GET /admin/auth/group/ HTTP/1.1" 200 13069
+INFO 2026-04-10 07:44:58,841 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:45:03,327 log 28808 7388 "GET /admin/auth/group/ HTTP/1.1" 200 12856
+INFO 2026-04-10 07:45:03,370 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:45:06,148 basehttp 28808 7388 - Broken pipe from ('127.0.0.1', 5597)
+INFO 2026-04-10 07:45:06,176 log 28808 18712 "GET /admin/auth/group/2/change/ HTTP/1.1" 200 18280
+INFO 2026-04-10 07:45:06,257 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:45:49,343 log 28808 18712 "GET /admin/auth/user/ HTTP/1.1" 200 16436
+INFO 2026-04-10 07:45:49,445 log 28808 18712 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:45:50,935 basehttp 28808 18712 - Broken pipe from ('127.0.0.1', 5601)
+INFO 2026-04-10 07:45:50,973 log 28808 14428 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 29923
+INFO 2026-04-10 07:45:51,027 log 28808 17944 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:47:21,935 log 28808 14428 "GET /admin/auth/group/ HTTP/1.1" 200 12856
+INFO 2026-04-10 07:47:22,029 log 28808 17944 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:47:25,200 log 28808 14428 "GET /admin/auth/group/2/change/ HTTP/1.1" 200 18280
+INFO 2026-04-10 07:47:25,256 log 28808 17944 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:48:15,324 log 28808 14428 "POST /admin/auth/group/2/change/ HTTP/1.1" 302 0
+INFO 2026-04-10 07:48:15,352 log 28808 14428 "GET /admin/auth/group/ HTTP/1.1" 200 13071
+INFO 2026-04-10 07:48:15,417 log 28808 17944 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:48:21,245 log 28808 14428 "GET /admin/auth/user/ HTTP/1.1" 200 16436
+INFO 2026-04-10 07:48:21,295 log 28808 17944 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:48:27,641 log 28808 14428 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 29923
+INFO 2026-04-10 07:48:27,690 log 28808 17944 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:49:07,243 log 28808 14428 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2026-04-10 07:49:07,271 log 28808 14428 "GET /admin/auth/user/ HTTP/1.1" 200 16657
+INFO 2026-04-10 07:49:07,316 log 28808 17944 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:49:24,853 log 28808 14428 "POST /admin/logout/ HTTP/1.1" 200 3739
+INFO 2026-04-10 07:49:26,763 log 28808 14428 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-10 07:49:26,777 log 28808 14428 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4281
+INFO 2026-04-10 07:49:58,155 log 28808 14428 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-10 07:49:58,180 log 28808 14428 "GET /admin/ HTTP/1.1" 200 5821
+INFO 2026-04-10 07:55:40,927 log 28808 19704 "GET /admin/myapp3/post/ HTTP/1.1" 200 18119
+INFO 2026-04-10 07:56:05,255 log 28808 19704 "GET /admin/myapp3/post/ HTTP/1.1" 200 18119
+INFO 2026-04-10 07:56:14,700 log 28808 19704 "GET /admin/myapp3/post/100/change/ HTTP/1.1" 200 11012
+INFO 2026-04-10 07:56:14,758 log 28808 19704 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 07:56:37,212 log 28808 19704 "GET /admin/myapp3/post/ HTTP/1.1" 200 18119
+INFO 2026-04-10 07:56:38,544 log 28808 19704 "GET /admin/ HTTP/1.1" 200 5821
+INFO 2026-04-10 07:56:40,857 log 28808 19704 "GET /admin/myapp3/post/ HTTP/1.1" 200 18119
+INFO 2026-04-10 08:01:01,276 log 28808 2508 "GET /admin/ HTTP/1.1" 200 5821
+INFO 2026-04-10 08:01:08,826 log 28808 2508 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-10 08:01:08,854 log 28808 2508 "GET /admin/ HTTP/1.1" 200 5821
+INFO 2026-04-10 08:01:12,607 log 28808 2508 "GET /admin/ HTTP/1.1" 200 5821
+INFO 2026-04-10 08:08:40,756 log 28808 12020 "POST /admin/logout/ HTTP/1.1" 200 3739
+INFO 2026-04-10 08:08:43,047 log 28808 12020 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-10 08:08:43,126 log 28808 12020 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4281
+INFO 2026-04-10 08:08:53,814 log 28808 12020 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-10 08:08:53,906 log 28808 12020 "GET /admin/ HTTP/1.1" 200 13631
+INFO 2026-04-10 08:08:54,089 log 28808 12020 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 689
+INFO 2026-04-10 08:10:55,606 log 28808 28336 "GET /admin/myapp3/post/ HTTP/1.1" 200 46494
+INFO 2026-04-10 08:10:55,704 log 28808 28336 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:11:05,805 log 28808 28336 "GET /admin/myapp3/post/100/change/ HTTP/1.1" 200 15408
+INFO 2026-04-10 08:11:05,874 log 28808 28336 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:13:46,261 log 28808 12204 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 11509
+INFO 2026-04-10 08:13:46,309 log 28808 12204 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 11509
+INFO 2026-04-10 08:13:46,384 log 28808 12204 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:14:12,283 log 28808 12204 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2026-04-10 08:14:12,325 log 28808 12204 "GET /admin/myapp5/category/ HTTP/1.1" 200 12578
+INFO 2026-04-10 08:14:12,391 log 28808 12204 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:14:18,433 log 28808 12204 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 11509
+INFO 2026-04-10 08:14:18,526 log 28808 12204 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:14:25,181 log 28808 12204 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2026-04-10 08:14:25,205 log 28808 12204 "GET /admin/myapp5/category/ HTTP/1.1" 200 12906
+INFO 2026-04-10 08:14:25,268 log 28808 12204 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:14:39,373 log 28808 12204 "GET /admin/myapp5/product/ HTTP/1.1" 200 10880
+INFO 2026-04-10 08:14:39,953 log 28808 12204 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:14:42,132 log 28808 12204 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 13467
+INFO 2026-04-10 08:14:42,226 log 28808 29360 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:15:26,682 log 28808 12204 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2026-04-10 08:15:26,709 log 28808 29360 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 13748
+INFO 2026-04-10 08:15:26,771 log 28808 29360 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:15:43,948 log 28808 12204 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2026-04-10 08:15:43,977 log 28808 29360 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 13754
+INFO 2026-04-10 08:15:44,032 log 28808 29360 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:16:14,763 log 28808 12204 "GET /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4399
+INFO 2026-04-10 08:16:14,821 log 28808 29360 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:16:42,366 log 28808 12204 "POST /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 403
+INFO 2026-04-10 08:16:42,411 log 28808 29360 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 532
+INFO 2026-04-10 08:17:01,073 log 28808 12204 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2026-04-10 08:17:01,099 log 28808 29360 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 13795
+INFO 2026-04-10 08:17:01,156 log 28808 29360 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:17:27,738 log 28808 12204 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2026-04-10 08:17:27,767 log 28808 29360 "GET /admin/myapp5/product/ HTTP/1.1" 200 13566
+INFO 2026-04-10 08:17:27,833 log 28808 29360 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:17:50,400 log 28808 12204 "GET /admin/myapp5/product/1/change/ HTTP/1.1" 200 13742
+INFO 2026-04-10 08:17:50,465 log 28808 29360 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:18:03,106 log 28808 12204 "GET /admin/myapp5/product/1/delete/ HTTP/1.1" 200 10616
+INFO 2026-04-10 08:19:16,357 log 28808 29360 "POST /admin/myapp5/product/1/delete/ HTTP/1.1" 302 0
+INFO 2026-04-10 08:19:16,388 log 28808 12204 "GET /admin/myapp5/product/ HTTP/1.1" 200 13186
+INFO 2026-04-10 08:19:16,460 log 28808 29360 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:21:58,115 log 28808 1556 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 13512
+INFO 2026-04-10 08:21:58,188 log 28808 1556 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:22:12,206 log 28808 1556 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2026-04-10 08:22:12,240 log 28808 1556 "GET /admin/myapp5/product/ HTTP/1.1" 200 13558
+INFO 2026-04-10 08:22:12,356 log 28808 1556 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:26:39,296 autoreload 28808 18436 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\models.py changed, reloading.
+INFO 2026-04-10 08:26:43,299 autoreload 21272 2480 Watching for file changes with StatReloader
+INFO 2026-04-10 08:27:52,819 autoreload 21272 2480 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\models.py changed, reloading.
+INFO 2026-04-10 08:27:53,593 autoreload 12916 9332 Watching for file changes with StatReloader
+INFO 2026-04-10 08:28:16,527 autoreload 12916 9332 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\models.py changed, reloading.
+INFO 2026-04-10 08:28:17,367 autoreload 18988 21512 Watching for file changes with StatReloader
+INFO 2026-04-10 08:28:47,544 autoreload 18988 21512 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\models.py changed, reloading.
+INFO 2026-04-10 08:28:48,359 autoreload 1716 12580 Watching for file changes with StatReloader
+INFO 2026-04-10 08:32:14,468 autoreload 1716 12580 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\models.py changed, reloading.
+INFO 2026-04-10 08:32:15,817 autoreload 3232 25792 Watching for file changes with StatReloader
+INFO 2026-04-10 08:39:24,363 autoreload 18396 19180 Watching for file changes with StatReloader
+INFO 2026-04-10 08:39:45,268 basehttp 18396 22656 - Broken pipe from ('127.0.0.1', 54001)
+INFO 2026-04-10 08:39:46,660 log 18396 23432 "GET /admin/myapp5/product/ HTTP/1.1" 200 13350
+INFO 2026-04-10 08:39:59,008 log 18396 23432 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 16434
+INFO 2026-04-10 08:39:59,109 log 18396 23432 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:41:24,734 log 18396 23432 "POST /admin/myapp5/product/4/change/ HTTP/1.1" 302 0
+INFO 2026-04-10 08:41:24,758 log 18396 23432 "GET /admin/myapp5/product/ HTTP/1.1" 200 13568
+INFO 2026-04-10 08:41:24,811 log 18396 23432 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:42:49,381 autoreload 18396 19180 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\admin.py changed, reloading.
+INFO 2026-04-10 08:42:50,305 autoreload 12812 23340 Watching for file changes with StatReloader
+INFO 2026-04-10 08:44:04,172 autoreload 12812 23340 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\admin.py changed, reloading.
+INFO 2026-04-10 08:44:05,115 autoreload 10324 12748 Watching for file changes with StatReloader
+INFO 2026-04-10 08:44:26,478 log 10324 22156 "GET /admin/myapp5/product/ HTTP/1.1" 200 13984
+INFO 2026-04-10 08:44:26,517 log 10324 22156 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:44:47,327 log 10324 22156 "GET /admin/myapp5/product/?o=1 HTTP/1.1" 200 14418
+INFO 2026-04-10 08:44:47,393 log 10324 22156 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:44:51,611 log 10324 22156 "GET /admin/myapp5/product/?o=-1 HTTP/1.1" 200 14425
+INFO 2026-04-10 08:44:51,669 log 10324 20208 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:44:53,741 log 10324 22156 "GET /admin/myapp5/product/?o=1 HTTP/1.1" 200 14418
+INFO 2026-04-10 08:44:53,785 log 10324 20208 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:45:24,356 log 10324 22156 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 14109
+INFO 2026-04-10 08:45:24,413 log 10324 20208 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:45:25,812 log 10324 22156 "GET /admin/myapp5/product/?o=2 HTTP/1.1" 200 14418
+INFO 2026-04-10 08:45:25,843 log 10324 20208 "GET /admin/myapp5/product/?o=2 HTTP/1.1" 200 14418
+INFO 2026-04-10 08:45:25,885 log 10324 20208 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:45:28,202 log 10324 22156 "GET /admin/myapp5/product/?o=3.2 HTTP/1.1" 200 14910
+INFO 2026-04-10 08:45:28,246 log 10324 20208 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:45:29,146 log 10324 22156 "GET /admin/myapp5/product/?o=-3.2 HTTP/1.1" 200 14919
+INFO 2026-04-10 08:45:29,195 log 10324 20208 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:45:38,176 log 10324 22156 "GET /admin/myapp5/product/?o=2 HTTP/1.1" 200 14418
+INFO 2026-04-10 08:45:38,253 log 10324 20208 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:45:40,430 log 10324 22156 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 14109
+INFO 2026-04-10 08:45:40,515 log 10324 20208 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:45:41,800 basehttp 10324 22156 - Broken pipe from ('127.0.0.1', 46036)
+INFO 2026-04-10 08:45:41,820 log 10324 20208 "GET /admin/myapp5/product/?o=1 HTTP/1.1" 200 14418
+INFO 2026-04-10 08:45:41,864 log 10324 20208 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:45:43,185 log 10324 20208 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 14109
+INFO 2026-04-10 08:45:43,236 log 10324 20208 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:46:54,199 autoreload 10324 12748 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\admin.py changed, reloading.
+INFO 2026-04-10 08:46:55,253 autoreload 17252 2140 Watching for file changes with StatReloader
+INFO 2026-04-10 08:47:29,873 log 17252 28996 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 14109
+INFO 2026-04-10 08:47:29,926 log 17252 28996 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:47:33,704 log 17252 28996 "GET /admin/myapp5/product/ HTTP/1.1" 200 14774
+INFO 2026-04-10 08:47:33,758 log 17252 10260 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:49:00,380 autoreload 17252 2140 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\admin.py changed, reloading.
+INFO 2026-04-10 08:49:01,248 autoreload 28352 3496 Watching for file changes with StatReloader
+INFO 2026-04-10 08:49:27,049 log 28352 12112 "GET /admin/myapp5/product/ HTTP/1.1" 200 16313
+INFO 2026-04-10 08:49:27,101 log 28352 12112 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:50:29,903 log 28352 12112 "GET /admin/myapp5/product/?price=4235.00 HTTP/1.1" 200 15478
+INFO 2026-04-10 08:50:29,960 log 28352 12112 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:50:34,395 log 28352 12112 "GET /admin/myapp5/product/? HTTP/1.1" 200 16313
+INFO 2026-04-10 08:50:34,449 log 28352 14596 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:51:11,236 log 28352 12112 "GET /admin/myapp5/product/?_facets=True HTTP/1.1" 200 16762
+INFO 2026-04-10 08:51:11,300 log 28352 14596 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:51:11,627 log 28352 14596 "GET /static/admin/img/icon-hidelink.svg HTTP/1.1" 200 1131
+INFO 2026-04-10 08:51:15,450 log 28352 12112 "GET /admin/myapp5/product/? HTTP/1.1" 200 16313
+INFO 2026-04-10 08:51:15,504 log 28352 14596 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:51:17,173 log 28352 12112 "GET /admin/myapp5/product/?_facets=True HTTP/1.1" 200 16762
+INFO 2026-04-10 08:51:17,222 log 28352 14596 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:51:27,197 log 28352 12112 "GET /admin/myapp5/product/?_facets=True&date_added__gte=2026-04-03+00%3A00%3A00%2B00%3A00&date_added__lt=2026-04-11+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 18685
+INFO 2026-04-10 08:51:27,279 log 28352 14596 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:51:30,409 log 28352 12112 "GET /admin/myapp5/product/?_facets=True HTTP/1.1" 200 16762
+INFO 2026-04-10 08:51:30,455 log 28352 14596 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:51:36,360 log 28352 12112 "GET /admin/myapp5/product/? HTTP/1.1" 200 16313
+INFO 2026-04-10 08:51:36,420 log 28352 14596 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:51:37,508 log 28352 12112 "GET /admin/myapp5/product/?_facets=True HTTP/1.1" 200 16762
+INFO 2026-04-10 08:51:37,565 log 28352 14596 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:51:39,154 log 28352 12112 "GET /admin/myapp5/product/?_facets=True HTTP/1.1" 200 16762
+INFO 2026-04-10 08:51:39,201 log 28352 14596 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:51:45,056 log 28352 12112 "GET /admin/myapp5/product/?_facets=True HTTP/1.1" 200 16762
+INFO 2026-04-10 08:51:45,102 log 28352 14596 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:51:50,673 log 28352 12112 "GET /admin/myapp5/product/?_facets=True&date_added__gte=2026-04-10+00%3A00%3A00%2B00%3A00&date_added__lt=2026-04-11+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 18685
+INFO 2026-04-10 08:51:50,716 log 28352 14596 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:51:52,549 log 28352 12112 "GET /admin/myapp5/product/?_facets=True HTTP/1.1" 200 16762
+INFO 2026-04-10 08:51:52,635 log 28352 14596 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:53:05,757 autoreload 28352 3496 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\admin.py changed, reloading.
+INFO 2026-04-10 08:53:06,584 autoreload 21720 10272 Watching for file changes with StatReloader
+INFO 2026-04-10 08:53:30,651 log 21720 8628 "GET /admin/myapp5/product/?_facets=True HTTP/1.1" 200 17444
+INFO 2026-04-10 08:53:30,696 log 21720 8628 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:54:31,788 log 21720 8628 "GET /admin/myapp5/product/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 16525
+INFO 2026-04-10 08:54:31,843 log 21720 8628 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:55:06,924 log 21720 8628 "POST /admin/myapp5/product/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 302 0
+INFO 2026-04-10 08:55:06,958 log 21720 8628 "GET /admin/myapp5/product/?_facets=True HTTP/1.1" 200 17656
+INFO 2026-04-10 08:55:07,008 log 21720 8628 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:55:21,557 log 21720 8628 "GET /admin/myapp5/product/?q=%D0%B2%D0%BA%D1%83%D1%81&_facets=True HTTP/1.1" 200 16787
+INFO 2026-04-10 08:55:21,606 log 21720 8628 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 08:57:45,765 autoreload 21720 10272 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\admin.py changed, reloading.
+INFO 2026-04-10 08:57:46,641 autoreload 10636 13600 Watching for file changes with StatReloader
+INFO 2026-04-10 08:59:14,861 autoreload 10636 13600 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\admin.py changed, reloading.
+INFO 2026-04-10 08:59:15,698 autoreload 22284 26744 Watching for file changes with StatReloader
+INFO 2026-04-10 08:59:41,566 log 22284 29552 "GET /admin/myapp5/product/ HTTP/1.1" 200 17033
+INFO 2026-04-10 08:59:41,607 log 22284 29552 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 09:00:13,730 log 22284 29552 "POST /admin/myapp5/product/ HTTP/1.1" 302 0
+INFO 2026-04-10 09:00:13,974 log 22284 29552 "GET /admin/myapp5/product/ HTTP/1.1" 200 17031
+INFO 2026-04-10 09:00:14,029 log 22284 29552 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 09:02:08,003 log 22284 29552 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 16432
+INFO 2026-04-10 09:02:08,049 log 22284 29552 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 09:03:33,684 autoreload 22284 26744 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\admin.py changed, reloading.
+INFO 2026-04-10 09:03:34,883 autoreload 24616 28228 Watching for file changes with StatReloader
+INFO 2026-04-10 09:03:53,858 autoreload 24616 28228 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\admin.py changed, reloading.
+INFO 2026-04-10 09:03:54,816 autoreload 28400 15668 Watching for file changes with StatReloader
+INFO 2026-04-10 09:04:05,622 autoreload 28400 15668 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\admin.py changed, reloading.
+INFO 2026-04-10 09:04:06,468 autoreload 18588 28528 Watching for file changes with StatReloader
+INFO 2026-04-10 09:04:42,334 log 18588 11112 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 15618
+INFO 2026-04-10 09:04:42,383 log 18588 11112 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 09:05:46,258 autoreload 18588 28528 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\admin.py changed, reloading.
+INFO 2026-04-10 09:05:46,988 autoreload 17168 20012 Watching for file changes with StatReloader
+INFO 2026-04-10 09:07:28,304 autoreload 17168 20012 G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\myproject_lesson\myapp5\admin.py changed, reloading.
+INFO 2026-04-10 09:07:29,109 autoreload 19592 4072 Watching for file changes with StatReloader
+INFO 2026-04-10 09:09:05,942 log 19592 23400 "GET /admin/myapp5/product/ HTTP/1.1" 200 17031
+INFO 2026-04-10 09:09:06,128 log 19592 23400 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 09:09:07,825 log 19592 23400 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 17958
+INFO 2026-04-10 09:09:07,870 log 19592 14580 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 10:32:47,061 log 19592 13028 "POST /admin/myapp5/product/2/change/ HTTP/1.1" 200 18292
+INFO 2026-04-10 10:32:47,248 log 19592 13028 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 10:33:06,528 log 19592 13028 "POST /admin/myapp5/product/2/change/ HTTP/1.1" 302 0
+INFO 2026-04-10 10:33:06,563 log 19592 13028 "GET /admin/myapp5/product/ HTTP/1.1" 200 17303
+INFO 2026-04-10 10:33:06,627 log 19592 13028 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 10:33:10,727 log 19592 13028 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 17955
+INFO 2026-04-10 10:33:10,785 log 19592 17252 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-10 10:33:16,551 log 19592 13028 "POST /admin/myapp5/product/2/change/ HTTP/1.1" 302 0
+INFO 2026-04-10 10:33:16,581 log 19592 13028 "GET /admin/myapp5/product/ HTTP/1.1" 200 17303
+INFO 2026-04-10 10:33:16,635 log 19592 17252 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-04-22 09:32:36,986 autoreload 24304 22976 Watching for file changes with StatReloader
+INFO 2026-04-22 09:34:36,799 autoreload 28024 21416 Watching for file changes with StatReloader
+INFO 2026-04-22 09:35:02,120 log 28024 8624 "GET / HTTP/1.1" 200 15103
+INFO 2026-04-22 09:35:02,685 log 28024 8624 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 30587
+INFO 2026-04-22 09:35:02,692 log 28024 8624 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14879
+INFO 2026-04-22 09:35:02,979 log 28024 8624 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4700
+INFO 2026-04-22 09:35:02,990 log 28024 8624 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2026-04-22 09:35:31,059 log 28024 8624 "GET /__debug__/render_panel/?request_id=d25b3220f08e4c72b6684a2f3704a439&panel_id=HistoryPanel HTTP/1.1" 200 2619
+INFO 2026-04-22 09:35:31,112 log 28024 8624 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3431
+INFO 2026-04-22 09:35:51,381 log 28024 8624 "GET /__debug__/render_panel/?request_id=d25b3220f08e4c72b6684a2f3704a439&panel_id=VersionsPanel HTTP/1.1" 200 783
+INFO 2026-04-22 09:36:28,760 log 28024 8624 "GET /__debug__/render_panel/?request_id=d25b3220f08e4c72b6684a2f3704a439&panel_id=SettingsPanel HTTP/1.1" 200 28318
+INFO 2026-04-22 09:36:52,684 log 28024 8624 "GET /__debug__/render_panel/?request_id=d25b3220f08e4c72b6684a2f3704a439&panel_id=HeadersPanel HTTP/1.1" 200 4778
+INFO 2026-04-22 09:38:09,771 log 28024 8624 "GET /__debug__/render_panel/?request_id=d25b3220f08e4c72b6684a2f3704a439&panel_id=RequestPanel HTTP/1.1" 200 1582
+INFO 2026-04-22 09:38:29,656 log 28024 8624 "GET /__debug__/render_panel/?request_id=d25b3220f08e4c72b6684a2f3704a439&panel_id=SQLPanel HTTP/1.1" 200 458
+INFO 2026-04-22 09:38:51,236 log 28024 8624 "GET /__debug__/render_panel/?request_id=d25b3220f08e4c72b6684a2f3704a439&panel_id=StaticFilesPanel HTTP/1.1" 200 76286
+INFO 2026-04-22 09:39:41,337 log 28024 8624 "GET /__debug__/render_panel/?request_id=d25b3220f08e4c72b6684a2f3704a439&panel_id=TemplatesPanel HTTP/1.1" 200 7591
+INFO 2026-04-22 09:40:03,533 log 28024 8624 "GET /__debug__/render_panel/?request_id=d25b3220f08e4c72b6684a2f3704a439&panel_id=CachePanel HTTP/1.1" 200 1740
+INFO 2026-04-22 09:40:12,687 log 28024 8624 "GET /__debug__/render_panel/?request_id=d25b3220f08e4c72b6684a2f3704a439&panel_id=SignalsPanel HTTP/1.1" 200 2302
+INFO 2026-04-22 09:41:56,298 log 28024 8624 "GET /les4/user/add/ HTTP/1.1" 200 16104
+INFO 2026-04-22 09:41:56,900 log 28024 8624 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2026-04-22 09:41:56,905 log 28024 2496 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2026-04-22 09:41:56,909 log 28024 2496 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2026-04-22 09:41:56,952 log 28024 2496 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2026-04-22 09:42:08,191 log 28024 8624 "GET /__debug__/render_panel/?request_id=a004366fdc964afaad74fec7ab40e28f&panel_id=ProfilingPanel HTTP/1.1" 200 1474
+INFO 2026-04-22 09:42:24,055 log 28024 8624 "GET /les4/user/add/ HTTP/1.1" 200 16102
+INFO 2026-04-22 09:42:27,601 log 28024 8624 "GET /__debug__/render_panel/?request_id=5489f107d5ca43b993752f33648eafea&panel_id=ProfilingPanel HTTP/1.1" 200 45529
+INFO 2026-04-22 10:35:36,547 autoreload 28096 19276 Watching for file changes with StatReloader
+INFO 2026-04-22 10:35:46,592 log 28096 24440 "GET /les4/user/add/ HTTP/1.1" 200 16103
+INFO 2026-04-22 10:35:49,383 log 28096 24440 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2026-04-22 10:35:49,401 log 28096 24440 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2026-04-22 10:35:49,521 log 28096 24440 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2026-04-22 10:35:49,572 log 28096 24440 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+WARNING 2026-04-22 10:36:23,296 log 28096 24440 Not Found: /les6/
+WARNING 2026-04-22 10:36:23,297 log 28096 24440 "GET /les6/ HTTP/1.1" 404 18977
+INFO 2026-04-22 10:36:49,553 log 28096 24440 "GET /les6/db HTTP/1.1" 200 17912
+INFO 2026-04-22 10:36:49,651 log 28096 6580 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2026-04-22 10:37:20,257 log 28096 6580 "GET /les6/db/ HTTP/1.1" 200 15679
+INFO 2026-04-22 10:38:00,587 log 28096 6580 "GET /__debug__/render_panel/?request_id=5199a0f0d2cc42c1b6bdcfdeedbfa41a&panel_id=SQLPanel HTTP/1.1" 200 4745
+INFO 2026-04-22 10:39:17,733 log 28096 6580 "GET /les6/view/ HTTP/1.1" 200 15663
+INFO 2026-04-22 10:39:37,678 log 28096 6580 "GET /__debug__/render_panel/?request_id=e9905461d9d046bfaa26e0a4385f9d95&panel_id=SQLPanel HTTP/1.1" 200 5249
+INFO 2026-04-22 10:40:21,389 log 28096 6580 "GET /__debug__/render_panel/?request_id=e9905461d9d046bfaa26e0a4385f9d95&panel_id=ProfilingPanel HTTP/1.1" 200 2579
+INFO 2026-04-22 10:40:35,506 log 28096 6580 "GET /les6/view/ HTTP/1.1" 200 15663
+INFO 2026-04-22 10:40:39,032 log 28096 6580 "GET /__debug__/render_panel/?request_id=97e02819788d4a3db17cad23e9061d00&panel_id=ProfilingPanel HTTP/1.1" 200 2579
+INFO 2026-04-22 10:41:14,288 log 28096 6580 "GET /les6/template/ HTTP/1.1" 200 15645
+INFO 2026-04-22 10:41:27,566 log 28096 6580 "GET /__debug__/render_panel/?request_id=8259cbec14234331afba961e017c5d17&panel_id=SQLPanel HTTP/1.1" 200 21016
+INFO 2026-04-22 10:41:39,820 log 28096 6580 "GET /__debug__/render_panel/?request_id=8259cbec14234331afba961e017c5d17&panel_id=TemplatesPanel HTTP/1.1" 200 8281
+INFO 2026-04-22 10:41:57,316 log 28096 6580 "GET /__debug__/render_panel/?request_id=8259cbec14234331afba961e017c5d17&panel_id=ProfilingPanel HTTP/1.1" 200 2579
+INFO 2026-04-22 10:42:06,774 log 28096 6580 "GET /les6/template/ HTTP/1.1" 200 15648
+INFO 2026-04-22 10:42:06,988 log 28096 6580 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2026-04-22 10:42:07,042 log 28096 6580 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2026-04-22 10:42:07,083 log 28096 25412 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2026-04-22 10:42:07,164 log 28096 6580 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2026-04-22 10:42:08,800 log 28096 6580 "GET /__debug__/render_panel/?request_id=0f0976323d1c4e758b1c770bb94bcced&panel_id=ProfilingPanel HTTP/1.1" 200 2579
+INFO 2026-04-22 10:42:37,521 log 28096 6580 "GET /__debug__/render_panel/?request_id=0f0976323d1c4e758b1c770bb94bcced&panel_id=HistoryPanel HTTP/1.1" 200 14139
+INFO 2026-04-22 10:42:37,591 log 28096 6580 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2026-04-22 10:43:31,617 log 28096 6580 "GET /__debug__/history_sidebar/?request_id=0f0976323d1c4e758b1c770bb94bcced&exclude_history=True HTTP/1.1" 200 13291
+INFO 2026-04-22 10:43:34,680 log 28096 6580 "GET /__debug__/history_sidebar/?request_id=0f0976323d1c4e758b1c770bb94bcced&exclude_history=True HTTP/1.1" 200 13291

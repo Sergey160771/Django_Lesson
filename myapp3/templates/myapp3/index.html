@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Статьи автора {{ author.full_name }}</h2>
+
+<ul>
+    {% for article in articles %}
+        <li>
+            {% if article.is_published %}
+                {{ article.title }}
+            {% else %}
+                {{ article.title }}
+            {% endif %}
+        </li>
+    {% empty %}
+        <li>У автора нет статей</li>
+    {% endfor %}
+</ul>
+{% endblock %}

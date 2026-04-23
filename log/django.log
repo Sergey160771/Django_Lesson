@@ -1537,3 +1537,58 @@ INFO 2026-04-22 10:42:37,521 log 28096 6580 "GET /__debug__/render_panel/?reques
 INFO 2026-04-22 10:42:37,591 log 28096 6580 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
 INFO 2026-04-22 10:43:31,617 log 28096 6580 "GET /__debug__/history_sidebar/?request_id=0f0976323d1c4e758b1c770bb94bcced&exclude_history=True HTTP/1.1" 200 13291
 INFO 2026-04-22 10:43:34,680 log 28096 6580 "GET /__debug__/history_sidebar/?request_id=0f0976323d1c4e758b1c770bb94bcced&exclude_history=True HTTP/1.1" 200 13291
+INFO 2026-04-23 18:00:19,416 autoreload 29508 15036 Watching for file changes with StatReloader
+ERROR 2026-04-23 18:00:25,314 log 29508 28248 Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\deprecation.py", line 308, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\messages\middleware.py", line 12, in process_request
+    request._messages = default_storage(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\messages\storage\__init__.py", line 12, in default_storage
+    return import_string(settings.MESSAGE_STORAGE)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\messages\storage\fallback.py", line 17, in __init__
+    storage_class(*args, **kwargs) for storage_class in self.storage_classes
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\messages\storage\cookie.py", line 92, in __init__
+    self.signer = signing.get_cookie_signer(salt=self.key_salt)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\signing.py", line 113, in get_cookie_signer
+    key=_cookie_signer_key(settings.SECRET_KEY),
+                           ^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\conf\__init__.py", line 85, in __getattr__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+ERROR 2026-04-23 18:00:25,360 log 29508 28248 "GET / HTTP/1.1" 500 145
+ERROR 2026-04-23 18:01:15,106 log 29508 28248 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\utils\deprecation.py", line 308, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\messages\middleware.py", line 12, in process_request
+    request._messages = default_storage(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\messages\storage\__init__.py", line 12, in default_storage
+    return import_string(settings.MESSAGE_STORAGE)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\messages\storage\fallback.py", line 17, in __init__
+    storage_class(*args, **kwargs) for storage_class in self.storage_classes
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\contrib\messages\storage\cookie.py", line 92, in __init__
+    self.signer = signing.get_cookie_signer(salt=self.key_salt)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\core\signing.py", line 113, in get_cookie_signer
+    key=_cookie_signer_key(settings.SECRET_KEY),
+                           ^^^^^^^^^^^^^^^^^^^
+  File "G:\Обучение программированию\Программа разработчик\Фреймворк Django\project\venv\Lib\site-packages\django\conf\__init__.py", line 85, in __getattr__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+ERROR 2026-04-23 18:01:15,124 log 29508 28248 "GET /admin/ HTTP/1.1" 500 145
